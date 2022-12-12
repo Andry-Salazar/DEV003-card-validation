@@ -77,6 +77,24 @@ body {
   margin-right: 3px;
 }
 
+.bubble-pago {
+  color: #ffffff;
+  background-color: #0f7173;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3px;
+}
+
+.list-pago {
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+}
+
 .point {
   font-size: 40px;
 }
@@ -255,6 +273,23 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
+}
+
+.container-footer {
+  display: flex;
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 1.2em 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-footer {
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
 .target {
